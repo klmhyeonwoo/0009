@@ -1,10 +1,11 @@
-# KB Healthcare Task Manager
+# Task Manager
 
 할 일을 관리하는 웹 애플리케이션입니다.
 
 ## 기술 스택
 
 **Frontend**
+
 - React 18 + TypeScript
 - Vite
 - Emotion (CSS-in-JS)
@@ -14,6 +15,7 @@
 - Axios
 
 **Backend**
+
 - Node.js + Express
 - JWT 인증
 
@@ -44,14 +46,14 @@ pnpm install
 pnpm dev
 ```
 
-프론트엔드(`http://localhost:5173`)와 백엔드(`http://localhost:3001`)가 동시에 실행됩니다.
+모노레포 기반으로 프론트엔드(`http://localhost:5173`)와 백엔드(`http://localhost:3001`)가 동시에 실행됩니다.
 
 ### 테스트 계정
 
-| 항목 | 값 |
-|------|----|
-| 이메일 | `test@test.com` |
-| 비밀번호 | `testtest` |
+| 항목     | 값              |
+| -------- | --------------- |
+| 이메일   | `test@test.com` |
+| 비밀번호 | `testtest`      |
 
 ## 프로젝트 구조
 
